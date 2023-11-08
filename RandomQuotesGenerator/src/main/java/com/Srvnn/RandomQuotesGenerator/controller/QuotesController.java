@@ -47,4 +47,5 @@ public class QuotesController {
     public String deleteQuote(@PathVariable Integer quoteId) {
         return quotesService.deleteQuote(quoteId);
     }
+
 }

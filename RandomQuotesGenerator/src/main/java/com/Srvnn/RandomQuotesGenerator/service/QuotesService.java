@@ -61,3 +61,4 @@ public class QuotesService {
         return quotesRepository.findById(quoteId).orElseThrow();
     }
 }
+
